@@ -1,3 +1,5 @@
+package pruebaSistema;
+
 @Entity
 public class Persona{
   private String nombre;
