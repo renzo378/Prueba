@@ -1,8 +1,8 @@
 public class Prueba{
-  
- protected  DFA _decisionToDFA;
-	public String algo;
 	protected static final String DIAS = 7;
+	public static final String ALGO;
+	protected static final PredictionContextCache _sharedContextCache =
+		new PredictionContextCache();
 	
 	
 }
