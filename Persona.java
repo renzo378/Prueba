@@ -8,4 +8,6 @@ public class JavaLexer extends Lexer {
 		ABSTRACT=1, ASSERT=2;
   public static final int
 		HOLA=58;
+	 public static final String
+		HOLAaaa;
 }
