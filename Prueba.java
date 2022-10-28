@@ -1,7 +1,6 @@
 public class Prueba{
 	
-	protected static final String _sharedContextCache =
-		new PredictionContextCache();
-	
+	public static final int
+		ABSTRACT=1, ASSERT=2, BOOLEAN=3;
 	
 }
