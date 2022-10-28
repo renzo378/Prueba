@@ -1,5 +1,17 @@
-public class Prueba{
-	
-	public static final int ALGO;
-	
+package tpaPrueba.control;
+
+import java.io.Serializable;
+
+import io.micronaut.http.HttpResponse;
+import io.micronaut.http.annotation.Body;
+import io.micronaut.http.annotation.PathVariable;
+import tpaPrueba.ent.Base;
+
+public interface BaseController extends algo,otro {
+
+    HttpResponse<?> findAll();
+    HttpResponse<?> findOne(@PathVariable ID id);
+    HttpResponse<?> save(@Body E entity);
+    HttpResponse<?> update(@PathVariable ID id, @Body E entity);
+    HttpResponse<?> delete(@PathVariable ID id);
 }
