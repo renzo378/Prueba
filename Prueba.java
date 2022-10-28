@@ -7,7 +7,7 @@ import io.micronaut.http.annotation.Body;
 import io.micronaut.http.annotation.PathVariable;
 import tpaPrueba.ent.Base;
 
-public interface BaseController extends algo,otro {
+public interface BaseController <E extends Base, ID extends Serializable> {
 
     HttpResponse<?> findAll();
     HttpResponse<?> findOne(@PathVariable ID id);
